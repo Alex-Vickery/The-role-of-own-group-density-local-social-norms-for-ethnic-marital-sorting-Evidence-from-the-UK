@@ -72,5 +72,39 @@ users_path\indata
 ```
 ### IMPORTANT – `masterfile.do` must be executed before executing any other `.do` file
 
+`Masterfile.do`
+
+This `.do` file is the main script for cleaning the data and creating marriage matrices that will be exported to Matlab for the model estimation.
+
+We recommend that the user creates additional directories that correspond to the Global variables defined in lines 30-37 of the `.do` file `Masterfile.do` before proceeding. 
+
+Section 0 of the `.do` file is for programme definitions. 
+
+These are programmes that will be subsequently executed on each survey wave in order to clean the data. 
+
+Section 1 applies the pre-defined programmes to each survey wave, keeping only the relevant variables and then saves each cleaned wave as a temporary dataset. 
+
+In order for this to execute it is required to have the qualification and ethnicity merge files stored in the correct directory. Specifically, all qualifications files (provided) need to be stored in a folder `qualpath` and the ethnicity merge file `eth01q1.dta` needs to be stored in the `tempdata` folder. The merge files are user created according to LFS mapping documents; we require the use of the merge `.dta` files in order to create a consistent definition of qualifications across all survey waves. 
+
+Section 2 loops over survey waves creating a dataset of men that is subsequently merged with a created dataset of potential female partners. It also creates a dataset of women that is subsequently merged with a dataset of potential male partners. Section 2 concludes by appending the male and female datasets together into a single ‘matched’ dataset for each survey wave. 
+
+Section 3 appends the matched datasets for each survey wave together into a single dataset.
+
+Sections 4 and 5 inspect and clean the data respectively. 
+
+Section 6 uses the cleaned data to create matrices, by region, that are exported as `.txt` files  to be used in matlab for the model estimation. Specifically, the `.do` file creates matrices for:
+- Population distribution over ethnicity and education, by gender – `Qualpreregr.txt`
+- Population counts by ethnicity, education, and gender – `cnt_preregr.txt`
+- Male marriage rates by ethnicity and education – `M_prer.txt`
+- Female marriage rates by ethnicity and education – `F_prer.txt`
+- Male and female singles rates – `s_mr.txt`, `s_fr.txt`
+- Male and female marriage rates to partners born outside of the UK – `o_mr.txt`, `o_fr.txt`
+
+**Table 1:** The population counts shown in Table 1 are created in 1882-1910 of `Masterfile.do`.
+
+**Figure 1:** The data used in Figure 1 is generated at this stage by summarising the ethnicity 
+dummies by region. (eth and govtof respectively in the cleaned data).
+
+
 ## License 
 The content of this repository are licensed under the terms of the MIT License.
