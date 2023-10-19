@@ -51,15 +51,15 @@ All LFS data used in this project is freely available from the UK data service r
 We use data for survey years 1996-2015. All survey waves need to be downloaded and saved in the users `indata` directory, this directory is where the raw data files will be stored. 
 Within the `indata` directory we recommend creating additional sub-directories for each survey wave according to the following syntax: `yrzQj` 
 
-where `z` corresponds to the survey year i.e. survey year 1999 &rarr; `z = 99`. 
+where `z` corresponds to the survey year i.e. in survey year 1999 &rarr; `z = 99`. 
 
-where `j` corresponds to the survey quarter i.e. quarter 1 &rarr; `j = 1`. 
+where `j` corresponds to the survey quarter i.e. in quarter 1 &rarr; `j = 1`. 
 
 Within each sub-directory we recommend saving the corresponding survey wave according to the following syntax: `qlfsjmz.dta`, `qlfsajz.dta`, `qlfsjsz.dta`, &amp; `qlfsodz.dta`. 
 
-Here `jm` corresponds to January-March i.e. Q1. etc …
+Here `jm` corresponds to January-March, `aj` corresponds to April-June, etc ...
 
-In the end the structure of the `indata` directory shoud look like the following 
+The structure of the `indata` directory shoud therefore look like the following 
 
 ```
 users_path\indata
