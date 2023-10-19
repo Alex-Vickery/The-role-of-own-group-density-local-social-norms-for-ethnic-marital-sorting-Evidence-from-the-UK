@@ -176,3 +176,5 @@ create the values seen in Table A.4.
 
 ## License 
 The content of this repository are licensed under the terms of the MIT License.
+
+![Alt Text](./other/logo.png)
