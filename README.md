@@ -59,6 +59,18 @@ Within each sub-directory we recommend saving the corresponding survey wave acco
 
 Here `jm` corresponds to January-March i.e. Q1. etc …
 
+In the end the structure of the `indata` directory shoud look like the following 
+
+```
+users_path\indata
+├── yr96Q1
+│ └── qlfsjm96.dta
+├── yr96Q2
+│ └── qlfsaj96.dta
+├── yr96Q3
+│ └── qlfsjs96.dta
+```
+
 
 ## License 
 The content of this repository are licensed under the terms of the MIT License.
