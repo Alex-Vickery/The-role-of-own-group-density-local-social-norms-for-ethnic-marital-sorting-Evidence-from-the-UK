@@ -164,7 +164,7 @@ We recommend that the user save the created .mat files in the directory that inc
 
 `FIG8.m` (Matlab) This script creates the sub-figures included in figure 8. Specifically, the code will generate one sub-figure i.e. Asian women. The user can easily generate the other sub-figures by changing the inputs in lines 131, 140, and 141 of the script. 
 
-### Section 4 – Robustness Checks &amp; Additional Tables and Figures (Stata &amp; Matlab)
+## Section 4 – Robustness Checks &amp; Additional Tables and Figures (Stata &amp; Matlab)
 
 `internalpredict.m` - Table A.4 (Matlab) If the user would like to replicate the results for the robustness check in table A.4 -Predicted Intra-Ethnic Marriage Rates for the West Midlands Region when Included and Excluded from the Estimation, it can be achieved in a few simple steps. The first is to run the script `spec3.m` again, but excluding the West Midlands from the estimation (the west midlands is region 7 in the data). Doing so will generate a new set of parameters which the user should save e.g. `Spec3woWM.mat`. These are the parameter estimates shown in table E.3. Then the user can open and run the script `internalpredict.m` which uses the newly estimated set of parameters for the model that excludes the West Midlands. The script uses the estimated parameters to predict marriage rates for the West Midlands, it then compares these with the predicted marriage rates for the West Midlands that were obtained using the full model. The marriage rates for both of these cases are then used to 
 create the values seen in Table A.4. 
