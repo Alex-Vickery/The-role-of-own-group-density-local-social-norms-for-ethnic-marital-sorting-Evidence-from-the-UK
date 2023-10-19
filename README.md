@@ -70,7 +70,7 @@ users_path\indata
 ├── yr96Q3
 │ └── qlfsjs96.dta
 ```
-
+### IMPORTANT – `masterfile.do` must be executed before executing any other `.do` file
 
 ## License 
 The content of this repository are licensed under the terms of the MIT License.
