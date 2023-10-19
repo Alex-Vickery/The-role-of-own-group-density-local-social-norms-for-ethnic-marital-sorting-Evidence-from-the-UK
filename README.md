@@ -1,4 +1,4 @@
-# The-role-of-own-group-density-local-social-norms-for-ethnic-marital-sorting-Evidence-from-the-UK
+# The role of own group density &amp; local social norms for ethnic marital sorting Evidence from the UK
 
 This repository contains the code and data accompanying the paper "The role of own-group density &amp; local social norms for ethnic marital sorting: Evidence from the UK", written by [Dan Anderberg](https://www.dananderberg.com/) &amp; Alexander Vickery, published in the [European Economic Review](https://doi.org/10.1016/j.euroecorev.2021.103774) in September 2021.
 
