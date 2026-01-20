@@ -178,4 +178,4 @@ create the values seen in Table A.4.
 The content of this repository are licensed under the terms of the MIT License.
 
 ### Alexander Vickery
-<img src="./other/logo.png" width="100px">
+<img src="./other/logo.png" width="125px">
