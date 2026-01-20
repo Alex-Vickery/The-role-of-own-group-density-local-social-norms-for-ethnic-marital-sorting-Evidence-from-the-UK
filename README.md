@@ -3,7 +3,7 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-%23e76a24.svg?style=for-the-badge&logo=matlab&logoColor=white)
 ![Stata](https://img.shields.io/badge/Stata-%231a5f91.svg?style=for-the-badge&logo=stata&logoColor=white)
 
-This repository contains the code and data accompanying the paper "The role of own-group density &amp; local social norms for ethnic marital sorting: Evidence from the UK", written by [Dan Anderberg](https://www.dananderberg.com/) &amp; Alexander Vickery, published in the [European Economic Review](https://doi.org/10.1016/j.euroecorev.2021.103774) in September 2021.
+This repository contains the code and data accompanying the paper "The role of own-group density &amp; local social norms for ethnic marital sorting: Evidence from the UK", authored by [Dan Anderberg](https://www.dananderberg.com/) &amp; [Alexander Vickery](https://www.alexander-vickery.com/), published in the [European Economic Review](https://doi.org/10.1016/j.euroecorev.2021.103774) in September 2021.
 
 ## Links to the Paper
 The paper and supplementary material are available at [https://doi.org/10.1016/j.euroecorev.2021.103774](https://doi.org/10.1016/j.euroecorev.2021.103774).
